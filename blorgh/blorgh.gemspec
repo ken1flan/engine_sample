@@ -28,4 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", "~> 6.0.6", ">= 6.0.6.1"
 
   spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency 'puma'
+  spec.add_development_dependency 'pry-byebug'
 end
